@@ -9,4 +9,9 @@ class Anagram:
              anagrams.append(candidate)
 
         return anagrams
-        pass
+       
+
+anagram_example = Anagram("listen")
+words = ["enlist", "inlets", "silent", "hello", "tinsel", "neat", "slit", "nets", "shine", "tile", "site"]
+matched_anagrams = anagram_example.match(words)
+print(matched_anagrams)
